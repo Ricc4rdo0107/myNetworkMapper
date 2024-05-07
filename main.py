@@ -55,6 +55,7 @@ class portScanner:
 
         self.root.resizable(0,0)
         self.root.geometry(f"{self.winsize_x}x{self.winsize_y}")
+        self.root.title("Port Scanner by ~Zappitelli Riccardo github.com/Ricc4rdo0107")
         self.root.mainloop()
 
 
